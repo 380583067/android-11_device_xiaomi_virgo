@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_virgo.mk
+    $(LOCAL_DIR)/dot_virgo.mk
+
+COMMON_LUNCH_CHOICES := \
+    dot_virgo-user \
+    dot_virgo-userdebug \
+    dot_virgo-eng
