@@ -22,6 +22,9 @@ $(call inherit-product, device/xiaomi/virgo/virgo.mk)
 # Inherit some common dot stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
+# Device specific flags
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := dot_virgo
 PRODUCT_DEVICE := virgo
 PRODUCT_BRAND := Xiaomi
